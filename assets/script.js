@@ -1,10 +1,10 @@
-/*console.log(`hello`);
-window.alert('your device hacked')
-document.getElementById("mohan").textContent = (`hii`)
-let age =25;
-let cgpa =9.5;
- let num = console.log(`you AGE is${age}`);*/
- //strings
- let name = "hacker";
- let become ="devloper"; 
-
+ const PI = 12.5;
+ let rsdius;
+ let circle;
+ 
+ document.getElementById("mySubmit").onclick = fucntion(){
+    radius=document.getElementById("mytext").ariaValueMax;
+    radius = Number(radius);
+    circle =  2*pi*radius;
+    document.getElementById("my H3").textcontent = circle;
+ }
