@@ -1,14 +1,10 @@
+/*console.log(`hello`);
+window.alert('your device hacked')
+document.getElementById("mohan").textContent = (`hii`)
+let age =25;
+let cgpa =9.5;
+ let num = console.log(`you AGE is${age}`);*/
+ //strings
+ let name = "hacker";
+ let become ="devloper"; 
 
-
-let menuList = document.getElementById("menuList")
-        menuList.style.maxHeight = "0px";
-
-        function Menu(){
-            if(menuList.style.maxHeight == "0px")
-            {
-                menuList.style.maxHeight = "500px";
-            }
-            else{
-                menuList.style.maxHeight = "0px";
-            }
-        }
