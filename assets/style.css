@@ -1,0 +1,122 @@
+
+.bold{
+  font-size: large;
+  font-size: 23px;
+}
+.nav-bar {
+  position: sticky;
+ top: 0px;
+}
+.nav-item{
+  font-size: 19px;
+  padding: 5px;
+  transition: border-bottom 0.1s ease-in;
+}
+.nav-item:hover{
+  border-bottom: 5px solid hsl(0, 65%, 40%);
+}
+#home{
+  display: flex;
+  justify-content: center;
+  background-color: hwb(0 99% 1% / 0.795);
+}
+.container h1,button{
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 20%;
+}
+.container button{
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+  text-decoration: none;
+  margin-left: 20%;
+  box-shadow: 0px 3px 4px rgba(0, 0, 1, 0.418);
+}
+#home img{
+  width: 500px;
+}
+#about{
+  background-color: bisque;
+}
+#about p {
+  letter-spacing: 2px;
+  line-height: 33px;
+  font-size: 20px;
+  text-align: justify;
+}
+.card-shadow{
+  height:200px ;
+  border-radius: 20px;
+}
+.card{
+  box-shadow: 0px 4px 5px #636262;
+}
+.user input{
+  margin-top: 10px;
+}
+#contact{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.user input{
+  width: 90%;
+  margin-top: 10px;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow:0px 4px 5px #3b3b3b ;
+}
+.mail input{
+  width: 90%;
+  margin-top: 30px;
+  border-radius: 10px;
+  height: 40px;
+  box-shadow:0px 4px 5px #3b3b3b ;
+}
+.text textarea{
+  width: 90%;
+  margin-top: 40px;
+  border-radius: 10px;
+  height: 40px;
+  box-shadow:0px 4px 5px #3b3b3b ;
+}
+.but button{
+  margin-top: 20px;
+  width: 30%;
+  height: 10%;
+  border-radius: 20px;
+  background-color: rgb(17, 29, 83);
+  color: white;
+  box-shadow:0px 2px 5px #9c9c9c,
+  0px 2px 1px #3b3b3b;
+}
+form{
+  box-shadow:0px 4px 5px #3b3b3b ;
+  height: 80%;
+  border-radius: 20px;
+  padding: 25px;
+}
+#Contacts{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 200px;
+  background-color: #9c9c9c;
+  margin-top: 30px;
+  height: 60px;
+}
+#Contacts i{
+  margin-top: 20px;
+  height: 100px;
+}
+#mail{
+  margin-left: 20%;
+  margin-top: 3%;
+}
+.footer{
+  display: flex;
+  background-color: #9c9c9c;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
